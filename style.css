@@ -309,6 +309,8 @@ section{
     padding: 16px 0px;
 }
 .bot-txt{
+    display: block;
+    margin: 14px 0px;
     font-size: 14px;
     text-decoration: underline;
     color: rgb(176, 176, 176);
