@@ -24,7 +24,7 @@ section{
 
 .tint{
     background-color: rgba(0, 0, 0, 0.5);
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); 
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.35) 0, rgba(0, 0, 0, 0.35) 60%, rgba(0, 0, 0, 0.35) 100%); 
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
 }
@@ -42,9 +42,15 @@ section{
 }
 .title{
     font-size: 48px;
+    margin-bottom: 0px;
     font-weight: 900;
 }
-.subtitle,.description{
+.subtitle{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.description{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -101,11 +107,11 @@ section{
 .email-inp{
     width: 340px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.05);
     color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 14px;
-    border: 1px solid rgba(255, 255, 255, 0.175);
+    border: 1px solid rgba(255, 255, 255, 0.45);
     border-radius: 4px;
 }
 .email-btn{
