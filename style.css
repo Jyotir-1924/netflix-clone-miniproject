@@ -724,3 +724,14 @@ body{
         font-size: 4vw;
     }
 }
+@media screen and (max-width: 480px){
+    .m-download{
+        width: 50%;
+        height: 8%;
+        left: 50%;
+        top: 40%;
+    }
+    .left{
+        padding: 0;
+    }
+}
